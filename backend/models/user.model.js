@@ -39,7 +39,7 @@ const UserSchema = new mongoose.Schema({
       }
     },
     UIN: { type: String, unique: true, sparse: true, trim: true },
-    department: { type: String, enum: ['Computer', 'Civil', 'ECS', 'AIDS', 'Mechanical'] },
+    department: { type: String, enum: ['CSE', 'Civil', 'ECE', 'EEE', 'Mechanical'] },
     year: { type: Number, enum: [1, 2, 3, 4] },
     addmissionYear: { type: Number },
     gap: { type: Boolean, default: false },
@@ -55,12 +55,12 @@ const UserSchema = new mongoose.Schema({
       sem8: { type: Number }
     },
     pastQualification: {
-      ssc: {
+      sslc: {
         board: { type: String },
         percentage: { type: Number },
         year: { type: Number }
       },
-      hsc: {
+      hlc: {
         board: { type: String },
         percentage: { type: Number },
         year: { type: Number }

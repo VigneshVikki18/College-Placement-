@@ -446,10 +446,10 @@ function UserDetails() {
                                 disabled={!completeProfileReq && currentUserData.role !== 'superuser'}
                               >
                                 <option disabled value="undefined" className='text-gray-400'>Enter Your Department</option>
-                                <option value="Computer">Computer</option>
+                                <option value="Computer">CSE</option>
                                 <option value="Civil">Civil</option>
-                                <option value="ECS">ECS</option>
-                                <option value="AIDS">AIDS</option>
+                                <option value="ECS">ECE</option>
+                                <option value="AIDS">EEE</option>
                                 <option value="Mechanical">Mechanical</option>
                               </Form.Select>
                             </FloatingLabel>
@@ -632,14 +632,14 @@ function UserDetails() {
                                 required={completeProfileReq}
                                 disabled={!completeProfileReq && currentUserData.role !== 'superuser'}
                               >
-                                <option disabled value="undefined" className='text-gray-400'>Enter Your SSC Board Name</option>
-                                <option value="Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)">Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)</option>
+                                <option disabled value="undefined" className='text-gray-400'>Enter Your TamilNadu SSLC Board Name</option>
+                                <option value=" TamilNadu Secondary School Leaving Certificate (SSLC)">Secondary School Leaving Certificate (SSLC)</option>
                                 <option value="Central Board of Secondary Education (CBSE)">Central Board of Secondary Education (CBSE)</option>
                                 <option value="Council for the Indian School Certificate Examinations (CISCE)">Council for the Indian School Certificate Examinations (CISCE)</option>
                                 <option value="Other">Other</option>
                               </Form.Select>
                             </FloatingLabel>
-                            <FloatingLabel controlId="floatingSSCMarks" label="SSC Percentage">
+                            <FloatingLabel controlId="floatingSSlCMarks" label="SSC Percentage">
                               <Form.Control
                                 type="number"
                                 placeholder="SSC Percentage"
@@ -717,7 +717,7 @@ function UserDetails() {
                                 disabled={!completeProfileReq && currentUserData.role !== 'superuser'}
                               >
                                 <option disabled value="undefined" className='text-gray-400'>Enter Your HSC Board Name</option>
-                                <option value="Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)">Maharashtra State Board of Secondary and Higher Secondary Education (MSBSHSE)</option>
+                                <option value="TamilNadu Higher Secondary Education (TNHSE)">TamilNadu State Board of Secondary and Higher Secondary Education (TNHSE)</option>
                                 <option value="Central Board of Secondary Education (CBSE)">Central Board of Secondary Education (CBSE)</option>
                                 <option value="Council for the Indian School Certificate Examinations (CISCE)">Council for the Indian School Certificate Examinations (CISCE)</option>
                                 <option value="Other">Other</option>
@@ -801,11 +801,11 @@ function UserDetails() {
                                 disabled={!completeProfileReq && currentUserData.role !== 'superuser'}
                               >
                                 <option disabled value="undefined" className='text-gray-400'>Enter Your Diploma University Name</option>
-                                <option value="Computer">Computer</option>
+                                <option value="Computer">CSE</option>
                                 <option value="Civil">Civil</option>
                                 <option value="Mechanical">Mechanical</option>
-                                <option value="ECS">ECS</option>
-                                <option value="AIDS">AIDS</option>
+                                <option value="ECS">ECE</option>
+                                <option value="AIDS">EEE</option>
                                 <option value="Other">Other</option>
                               </Form.Select>
                             </FloatingLabel>
